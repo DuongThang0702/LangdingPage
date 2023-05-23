@@ -1,0 +1,23 @@
+.popularCourse_item {
+    width: 28rem !important;
+    height: 28rem !important;
+    display: flex !important;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.popularCourse_img {
+    width: 25.5rem !important;
+    height: 15.5rem !important;
+}
+
+.popularCourse_img__star {
+    width: 10rem !important;
+    height: 4rem !important;
+}
+
+.slick_slide {
+    width: 280px !important;
+    margin: 3rem 0 6rem;
+}

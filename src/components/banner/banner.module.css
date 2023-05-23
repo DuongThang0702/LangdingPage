@@ -1,0 +1,10 @@
+.el:hover {
+    opacity: 1;
+    transition: all .5s linear;
+}
+
+.box {
+    background-color: #2F384A;
+    border-radius: 3rem;
+
+}
