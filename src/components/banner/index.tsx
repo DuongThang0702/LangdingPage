@@ -1,6 +1,5 @@
 import style from "./banner.module.css";
 import Image from "next/image";
-import banner from "../../../public/banner.png";
 
 const Banner = () => {
   const item = [
@@ -29,7 +28,7 @@ const Banner = () => {
                 key={index}
                 className={`${style.el} text-2xl pr-14 font-bold opacity-70 text-slate-600 uppercase tracking-wider agli cursor-pointer `}
               >
-                <a href= {`#\${item}`}>{item}</a>
+                <a href= {`#${item}`}>{item}</a>
                
               </div>
             ))}
@@ -41,7 +40,7 @@ const Banner = () => {
           className="w-1/2"
           // style={{ marginTop: "-8rem" }}
         >
-          <Image src={banner} alt="Picture of the author" width={1000} />
+          <Image src='/banner.png' alt="Picture of the author" width={1000} height={1000}/>
         </div>
         <div className="banner-title flex flex-col items-center justify-center w-1/2">
           <h1 className="text-5xl font-bold">{"CAO ĐẲNG VIỆT MỸ"}</h1>
